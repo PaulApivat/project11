@@ -1,0 +1,46 @@
+.site-wrapper {
+
+	background: 
+		linear-gradient(
+      		rgba(200, 200, 200, 0.45), 
+      		rgba(200, 200, 200, 0.45)
+    	),
+
+	url(i6_8.jpg);
+	
+}
+
+.container {
+	
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	color: #D2A300;
+	font-size: 500%;
+	font-stretch: extra-expanded;
+}
+
+h2 {
+	color: #D2A300;
+}
+
+h3 {
+	color: gold;
+}
+
+p {
+	color: gold;
+	font: bold;
+}
+
+.list-unstyled {
+	background: grey;
+}
+
+.footer {
+	text-align: center;
+}
