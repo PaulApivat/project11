@@ -2,8 +2,8 @@
 
 	background: 
 		linear-gradient(
-      		rgba(200, 200, 200, 0.45), 
-      		rgba(200, 200, 200, 0.45)
+      		rgba(200, 200, 200, 0.75), 
+      		rgba(200, 200, 200, 0.75)
     	),
 
 	url(i6_8.jpg);
@@ -18,14 +18,31 @@
 	margin-left: auto;
 }
 
+/* This makes the large picture responsive   */
+img {
+	max-width: 100%; 
+}
+
+/* Add border to any picture  */
+.entry-content img {
+	border: #551A8B 4px solid;
+}
+
+
+/* Add space between list items  */
+li {
+	margin: 10px 0;
+}
+
+
 h1 {
-	color: #D2A300;
+	color: gold;
 	font-size: 500%;
 	font-stretch: extra-expanded;
 }
 
 h2 {
-	color: #D2A300;
+	color: gold;
 }
 
 h3 {
@@ -33,12 +50,24 @@ h3 {
 }
 
 p {
-	color: gold;
+	color: black;
 	font: bold;
 }
 
+/*
 .list-unstyled {
 	background: grey;
+}
+*/
+
+.media_injury {
+	position: relative;
+	left: 150px;
+}
+
+
+.media-body{
+	display: flex;
 }
 
 .footer {
